@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matz Porto</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">Rohmat Wahyu</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-500 origin-top-left "></span>
+                        <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-500"></span>
+                        <span class="w-[30px] h-[2px] my-2 block bg-dark transition duration-500 origin-bottom-left "></span>
+                    </button>
+                    
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+     <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary lg:text-xl ">Halo Semua ✌ Saya <span class="block font-bold text-slate-900 text-4xl mt-1 lg:text-5xl">Rohmat Wahyu</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5"><span class="text-dark lg:text-2xl">Professional Maintenance Planner </span>| Jr. Web Developer | Data Science Enthusiast</h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Seorang Maintenance Planner profesional dengan minat kuat di web development dan data science - menggabungkan presisi teknis dengan <span class="text-slate-900 font-bold">solusi berbasis data dan teknologi.</span></p>
+
+                    <a href="#contact" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-0 lg:right-0">
+                        <img src="../img/matz.png" alt="rohmatwahyuhi" class="max-w-full mx-auto">
+                        <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <svg width="400" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#14b8a6" d="M38.2,-49.5C46,-38.9,46.5,-23.6,50.7,-7.8C54.9,8.1,62.8,24.4,56.8,30.8C50.7,37.2,30.8,33.5,16.6,33.4C2.4,33.2,-6,36.5,-12.5,34.2C-19,31.9,-23.6,24.1,-32.2,15.5C-40.8,7,-53.4,-2.3,-58.8,-17.1C-64.2,-31.8,-62.4,-52,-51.4,-62.1C-40.4,-72.1,-20.2,-72,-2.5,-69C15.2,-66,30.3,-60.1,38.2,-49.5Z" transform="translate(100 100) scale(1.1)" />
+                              </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Section End -->   
+    
+    <!-- About Section Start -->
+     <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Persiapkan Diri Anda Menghadapi Era Digitalisasi</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah seorang Professional Maintenance Planner dengan pengalaman dalam perencanaan dan pengelolaan perawatan alat berat, sekaligus seorang Jr. Web Developer yang terus berkembang di dunia teknologi. Dengan minat besar pada Data Science, saya antusias menggali wawasan dari data untuk mendukung pengambilan keputusan yang lebih cerdas dan efisien. Kombinasi keahlian teknis dan analitis ini menjadi bekal saya dalam menciptakan solusi yang terintegrasi dan bernilai tinggi.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Bersinergi</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Tetap terhubung dengan saya untuk terus berbagi informasi, inspirasi, dan peluang yang bermanfaat. Di era digital ini, hubungan yang baik membuka banyak kemungkinan baru, baik untuk kolaborasi maupun pengembangan diri. Jangan ragu untuk menjalin komunikasi, karena dari koneksi yang sederhana bisa lahir hal-hal luar biasa.</p>
+                    <div class="flex items-center">
+                        <!-- Youtube -->
+                         <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                         </a>
+
+                         <!-- Instagram -->
+                         <a href="https://instagram.com/rohmatwahyu.hi" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                         </a>
+
+                         <!-- LinkedIn -->
+                         <a href="https://www.linkedin.com/in/rohmat-wahyu-hi/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 30 30">
+                                <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                            </svg>                                                        
+                         </a>
+
+                         <!-- faceBook -->
+                         <a href="https://www.facebook.com/rohmatwahyu.h" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>                                               
+                         </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- About Section End -->
+
+    <!-- Portfolio Start -->
+     <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project Terbaru - MERN - OnProgress</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Saya membuat proyek clone website Netflix menggunakan React sebagai latihan untuk memperdalam pemahaman dalam membangun antarmuka pengguna yang responsif dan dinamis. Proyek ini menampilkan daftar film, tampilan halaman beranda mirip Netflix, serta integrasi API untuk menampilkan konten secara real-time. Melalui proyek ini, saya mengasah keterampilan dalam React, pengelolaan state, dan pemanggilan data eksternal.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="../img/portfolio/1.PNG" alt="CRUD & Authentication With Laravel" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">CRUD & Authentication With Laravel</h3>
+                    <p class="font-medium text-base text-secondary">CRUD & Authentication With Laravel adalah proyek portofolio yang menampilkan kemampuan dalam membangun aplikasi web dengan fitur lengkap Create, Read, Update, Delete (CRUD) serta sistem otentikasi pengguna. Proyek ini menunjukkan pemahaman saya dalam menggunakan Laravel untuk mengelola data secara efisien dan memastikan keamanan akses melalui fitur login dan registrasi.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="../img/portfolio/2.PNG" alt="Inventory Management" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Inventory Management</h3>
+                    <p class="font-medium text-base text-secondary">Inventory Management – CRUD With Laravel adalah proyek portofolio yang dirancang untuk mengelola data inventaris secara efisien menggunakan fitur Create, Read, Update, Delete (CRUD). Dibangun dengan Laravel, proyek ini menunjukkan kemampuan saya dalam membangun sistem manajemen stok yang terstruktur, responsif, dan mudah digunakan.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="../img/portfolio/3.PNG" alt="3" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">CRUD - API Eksternal Menggunakan Laravel</h3>
+                    <p class="font-medium text-base text-secondary">Penarikan Data API Eksternal Menggunakan Laravel adalah proyek portofolio yang menampilkan kemampuan dalam mengintegrasikan dan mengambil data dari API eksternal menggunakan framework Laravel. Proyek ini menunjukkan pemahaman saya dalam mengelola permintaan HTTP, memproses respons data, dan menampilkannya secara dinamis dalam aplikasi web.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="../img/portfolio/4.PNG" alt="4" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Client Project – Pembuatan Manajemen Penjualan Produk Peternakan</h3>
+                    <p class="font-medium text-base text-secondary">Client Project - Pembuatan Manajemen Penjualan Produk Peternakan adalah proyek portofolio berbasis Laravel yang dikembangkan untuk membantu klien dalam mengelola data penjualan produk peternakan secara efisien. Proyek ini mencakup fitur pencatatan transaksi, pengelolaan produk, dan laporan penjualan yang memudahkan pemantauan dan pengambilan keputusan bisnis.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Portfolio End -->
+
+    <!-- Clients Section Start -->
+     <section id="clients" class="pt-36 pb-32 bg-slate-700">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Yang Pernah Bekerja Sama</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Saya pernah bekerja sama dengan beberapa klien dari berbagai bidang, mulai dari sektor peternakan hingga usaha kecil menengah, dalam mengembangkan solusi digital yang sesuai dengan kebutuhan mereka. Setiap proyek yang saya tangani berfokus pada efisiensi, kemudahan penggunaan, dan hasil yang nyata bagi operasional bisnis klien. Kolaborasi ini menjadi pengalaman berharga dalam memahami kebutuhan pengguna secara langsung dan menerapkannya ke dalam sistem yang fungsional dan profesional.</p>
+                </div>
+            </div>
+
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="../img/clients/1.png" alt="1">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="../img/clients/2.png" alt="2">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="../img/clients/3.png" alt="3">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="../img/clients/4.png" alt="4">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="../img/clients/5.png" alt="5">
+                    </a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- Clients Section End -->
+
+    <!-- Blog Section Start -->
+     <section id="blog" class="pt-36 pb-32 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Artikel Terkini</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Laravel saat ini menjadi salah satu framework PHP paling populer berkat ekosistemnya yang lengkap, dokumentasi yang jelas, dan komunitas yang aktif. Dengan fitur modern seperti Laravel Breeze, Jetstream, Livewire, hingga Laravel Octane untuk performa tinggi, Laravel terus berkembang mengikuti kebutuhan pengembangan web masa kini. Dukungan terhadap REST API, keamanan bawaan, dan kemudahan integrasi membuat Laravel menjadi pilihan utama bagi banyak developer dalam membangun aplikasi web yang cepat, aman, dan skalabel.</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="../img/article/1.PNG" alt="1" class="w-full">
+                        <div class="py-8 px-6">                            
+                            <h3>
+                                <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Mulai dari Dasar, Jangan Terburu-Buru</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6 text-secondary">Belajar programming bukan tentang cepat bisa, tapi tentang paham konsep. Luangkan waktu untuk benar-benar memahami struktur dasar seperti variabel, kondisi, perulangan, dan fungsi. Banyak pemula terjebak ingin langsung membuat aplikasi kompleks, padahal fondasi belum kuat. Dengan memahami dasar secara menyeluruh, kamu akan lebih mudah mengikuti materi lanjutan dan membangun proyek dengan struktur yang baik.</p>
+                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="../img/article/2.PNG" alt="2" class="w-full">
+                        <div class="py-8 px-6">                            
+                            <h3>
+                                <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate"> Bangun Proyek Sendiri, Bukan Hanya Ikuti Tutorial</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6 text-secondary">Mengikuti tutorial itu penting, tapi membangun proyek sendiri jauh lebih berdampak. Cobalah membuat aplikasi sederhana dari ide pribadi, meskipun hanya kalkulator atau to-do list. Proyek pribadi memaksamu berpikir mandiri, mencari solusi, dan memahami proses debugging. Dari sana, kamu akan belajar lebih banyak daripada hanya menyalin kode dari tutorial.
+
+                            </p>
+                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="../img/article/3.PNG" alt="3" class="w-full">
+                        <div class="py-8 px-6">                            
+                            <h3>
+                                <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Belajar Progamming</a>
+                            </h3>
+                            <p class="font-medium text-base mb-6 text-secondary">Tips belajar programming yang efektif dimulai dengan memahami dasar-dasar logika dan algoritma sebelum masuk ke bahasa pemrograman tertentu. Fokus pada satu bahasa terlebih dahulu, lalu praktikkan secara konsisten lewat proyek sederhana. Manfaatkan sumber belajar gratis seperti dokumentasi resmi, video tutorial, dan forum komunitas. Jangan takut melakukan kesalahan, karena dari error-lah proses belajar terjadi. Terakhir, cobalah membangun proyek nyata agar kemampuanmu berkembang secara praktis dan terarah.</p>
+                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+     <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Apakah Anda sedang mencari mitra yang dapat dipercaya untuk membangun sistem digital yang efisien dan sesuai kebutuhan bisnis? Kami siap membantu Anda. Dengan pengalaman dalam pengembangan web, manajemen data, dan sistem digital berbasis Laravel, kami menawarkan solusi yang terukur, aman, dan mudah digunakan.</p>
+                </div>
+            </div>
+            <form action="">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base font-bold text-primary">Nama</label>
+                        <input type="text" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-primary">Email</label>
+                        <input type="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base font-bold text-primary">Pesan</label>
+                        <textarea type="text" id="message" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+     </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+     <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-3">Ryu Office</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+                    <p>rohmatwahyuhi@gmail.com</p>
+                    <p>Jl Anggur No 20 RT 5 RW 1</p>
+                    <p>Kab Malang - Jatim</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Kategori Artikel
+                    </h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Dasar Programing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Tips Belajar Programing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Buat Proyek</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">
+                        Tautan Terkait
+                    </h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="inline-block text-base hover:text-primary mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#clients" class="inline-block text-base hover:text-primary mb-3">Clients</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-primary mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- Youtube -->
+                     <a href="#" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                     </a>
+
+                     <!-- Instagram -->
+                     <a href="https://instagram.com/rohmatwahyu.hi" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                     </a>
+
+                     <!-- LinkedIn -->
+                     <a href="https://www.linkedin.com/in/rohmat-wahyu-hi/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 30 30">
+                            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                        </svg>                                                        
+                     </a>
+
+                     <!-- faceBook -->
+                     <a href="https://www.facebook.com/rohmatwahyu.h" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center border border-slate-300 text-secondary hover:border-primary hover:bg-primary hover:text-white transition duration-500 ease-in-out">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>                                               
+                     </a>
+
+
+                </div>
+                <p class="font-medium text-xs text-slate-500 text-center">Dibuat Oleh : <a href="https://www.linkedin.com/in/rohmat-wahyu-hi/" target="_blank" class="font-bold text-primary">Rohmat Wahyu</a>, Menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500"> Tailwind CSS</a></p>
+            </div>
+        </div>
+     </footer>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
